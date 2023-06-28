@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top {
+    background: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 125px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.header h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul li {
+    list-style: none;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb; 
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 34px;
+}
+
+.main-content .left-side h1 {
+    font-size: 48px;
+    font-family:  Roboto;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.main-content .left-side p {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #e5e7eb;
+    margin: 10px 0px;
+}
+
+.main-content .left-side button {
+    max-width: 120px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 8px;
+}
+
+
